@@ -248,7 +248,7 @@ The full set of configuration options are:
     - ``index_suffix`` - str: A suffix to apply to the index names
     - ``monthly_indexes`` - bool: Use monthly indexes instead of daily indexes
     - ``number_of_shards`` - int: The number of shards to use when creating the index (Default: 1)
-    - ``number_of_replicas`` - int: The number of replicas to use when creating the index (Default: 1)
+    - ``number_of_replicas`` - int: The number of replicas to use when creating the index (Default: 0)
 - ``splunk_hec``
     - ``url`` - str: The URL of the Splunk HTTP Events Collector (HEC)
     - ``token`` - str: The HEC token
