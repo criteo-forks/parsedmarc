@@ -14,7 +14,7 @@ from setuptools import setup
 from codecs import open
 from os import path
 
-__version__ = "8.2.1+criteo"
+__version__ = "8.2.0+criteo"
 
 description = "A Python package and CLI for parsing aggregate and " \
               "forensic DMARC reports"
