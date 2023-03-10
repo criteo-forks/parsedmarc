@@ -14,7 +14,7 @@ from setuptools import setup
 from codecs import open
 from os import path
 
-__version__ = "8.2.0+criteo"
+__version__ = "8.2.1+criteo"
 
 description = "A Python package and CLI for parsing aggregate and " \
               "forensic DMARC reports"
@@ -105,7 +105,7 @@ setup(
                       'lxml>=4.4.0',
                       'boto3>=1.16.63',
                       'msgraph-core>=0.2.2',
-                      'azure-identity>=1.8.0'
+                      'azure-identity>=1.8.0',
                       'google-api-core>=2.4.0',
                       'google-api-python-client>=2.35.0',
                       'google-auth>=2.3.3',
